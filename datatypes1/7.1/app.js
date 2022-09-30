@@ -1,12 +1,10 @@
-let budget = 100
-let product = 60
+let budget = 100;
+let product = prompt("Costs of product");
+let text = document.getElementById('text');
 
 if (budget > product) {
-document.write('U heeft genoeg geld!') 
-
-
+    text.innerHTML = "U heeft genoeg geld!";
+} else {
+    text.innerHTML = "Helaas, te weinig geldt";
 }
-
-else {
-    document.write('U heeft genoeg geld!')
-}
+ 
