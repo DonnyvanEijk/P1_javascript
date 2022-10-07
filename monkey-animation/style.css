@@ -31,3 +31,8 @@ body{
 .active {
     display:block;
 }
+
+h1 {
+    display:flex;
+    justify-content: center;
+}
