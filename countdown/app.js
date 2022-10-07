@@ -19,7 +19,7 @@ const textSecond = Math.floor((gap % day) / second);
 document.querySelector(".day").innerText = textDay
 document.querySelector(".minute").innerText = textMinute
 document.querySelector(".hour").innerText = textHour;
-document.querySelector(",second").innerText = textSecond;
+document.querySelector("second").innerText = textSecond;
 
 console.log(countDate)
     
