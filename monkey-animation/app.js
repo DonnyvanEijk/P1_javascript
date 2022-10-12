@@ -1,6 +1,7 @@
 const closedFace = document.querySelector(".closed");
 const openFace = document.querySelector(".open");
 let text = document.getElementById("verassing");
+let clicker = document.getElementById("clicker");
 
 
 

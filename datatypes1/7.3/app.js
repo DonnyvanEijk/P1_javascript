@@ -4,4 +4,10 @@
     function addScore() {
         out++
         clicker.innerText = out;
+        if (out > 9) {
+            out = 0
+        }
+    
     }
+
+  
