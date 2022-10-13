@@ -1,0 +1,23 @@
+.agecheck {
+    font-size: 2em;
+position: relative;
+left: 40rem;
+top:10rem;
+}
+
+.menu {
+    width:30vw;
+    position: relative;
+    left: 32rem;
+top:6rem;
+    height:15vh;
+    background-color: aqua;
+    display: none;
+}
+
+
+.child {
+   position: relative;
+   top:3rem;
+   left:6rem;
+}
