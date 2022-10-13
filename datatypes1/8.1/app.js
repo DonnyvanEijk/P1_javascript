@@ -16,6 +16,7 @@ function minusCalculate() {
     let x = Number(input1.value);
     let y = Number(input2.value);
     output.innerText = x - y;
+    if (x < 0 || y < 0) output.innerText = "te laag"
     }
     function timesCalculate() {
         let input1 = document.getElementById("input1");
@@ -23,6 +24,7 @@ function minusCalculate() {
         let x = Number(input1.value);
         let y = Number(input2.value);
         output.innerText = x * y;
+        if (x < 0 || y < 0) output.innerText = "te laag"
         }
 function divideCalculate() {
     let input1 = document.getElementById("input1");
@@ -30,4 +32,5 @@ function divideCalculate() {
     let x = Number(input1.value);
     let y = Number(input2.value);
     output.innerText = x / y;
+    if (x < 0 || y < 0) output.innerText = "te laag"
     }
