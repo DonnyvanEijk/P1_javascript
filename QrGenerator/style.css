@@ -1,0 +1,38 @@
+
+
+#container {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width:100px;
+    position: relative;
+    left:42rem;
+    top:8rem;
+    height:100px;
+}
+body {
+    background-color: black;
+}
+
+.tekstMain {
+    color:white;
+    position: relative;
+    left:35rem;
+}
+
+
+
+form {
+ position: relative;
+ left:36rem;
+ font-size: 1em;
+}
+
+.inputtext {
+    font-size: 1em;
+}
+
+.green {
+    color:yellowgreen;
+}
